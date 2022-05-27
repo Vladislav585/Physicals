@@ -20,8 +20,5 @@ public class Formulas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulas);
         Objects.requireNonNull(getSupportActionBar()).hide();
-        ListView listView = findViewById(R.id.listview);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, formulas);
-        listView.setAdapter(adapter);
     }
 }

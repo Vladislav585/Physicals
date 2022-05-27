@@ -51,6 +51,10 @@
         Приложение находиться в разработке\n
         Поэтому могут присуствовать какие-либо баги\n
     </string>
+    <string name="v_s_t_title">V = S / t</string>
+    <string name="s_t_v_pos">S — путь тела,\n
+        t — время, за которое этот путь пройден,\n
+        V - скорость, с которой пройден этот путь</string>
     <string-array name="Values_weight">
         <item>Кг</item>
         <item>Г</item>

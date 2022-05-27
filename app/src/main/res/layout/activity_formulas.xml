@@ -7,25 +7,59 @@
     android:background="#EFEAD8"
     tools:context=".Formulas">
 
-    <ListView
-        android:id="@+id/listview"
-        style="@style/CustomListView"
-        android:layout_width="354dp"
-        android:layout_height="601dp"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D0C9C0"
+            android:layout_marginTop="172dp">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="315dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/s_t_v_pos"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="320dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/v_s_t_title"
+                android:textColor="#FFFFFF"
+                android:textSize="38sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.472"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
     <TextView
         android:id="@+id/textView35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:text="@string/string_formulas_title"
-        android:textSize="48sp"
         android:textColor="#5F7161"
-        app:layout_constraintBottom_toTopOf="@+id/listview"
+        android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
