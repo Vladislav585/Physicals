@@ -13,8 +13,7 @@ import android.widget.Toast;
 import java.util.Objects;
 
 public class Formulas extends AppCompatActivity {
-    String[] formulas = {"V = S / t \nS — путь тела, t — время, за которое этот путь пройден, V - скорость, с которой пройден этот путь \nСИ: S = км, t = ч, V = км/ч \nТакже можно найти: S = V × t, t = S / V",
-    "P = mg \nm — масса тела, g — ускорение свободного падения, P - вес тела \nСИ: P = Н, m = кг, g = 9,8 м/с2 \nТакже можно найти: m = P / g, g = P / m"};
+    String[] formulas = {"P = mg \nm — масса тела, g — ускорение свободного падения, P - вес тела \nСИ: P = Н, m = кг, g = 9,8 м/с2 \nТакже можно найти: m = P / g, g = P / m"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

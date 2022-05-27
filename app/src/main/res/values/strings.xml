@@ -55,6 +55,12 @@
     <string name="s_t_v_pos">S — путь тела,\n
         t — время, за которое этот путь пройден,\n
         V - скорость, с которой пройден этот путь</string>
+    <string name="s_t_v_Ci">СИ: S = км, t = ч, V = км/ч</string>
+    <string name="Formulas_s_t_v">Также можно найти: S = V × t, t = S / V</string>
+    <string name="p_mg_title">P = mg</string>
+    <string name="m_g_p_pos">m — масса тела, g — ускорение свободного падения, P - вес тела</string>
+    <string name="p_m_g_Ci">СИ: P = Н, m = кг, g = 9,8 м/с²</string>
+    <string name="Formulas_p_m_g">Также можно найти: m = P / g, g = P / m</string>
     <string-array name="Values_weight">
         <item>Кг</item>
         <item>Г</item>
