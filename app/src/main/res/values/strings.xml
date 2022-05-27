@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Physicals</string>
+    <string name="ConverterButton">Конвертер</string>
+    <string name="FormulasButton">Формулы</string>
+    <string name="SolvingProblemButton">Решение задач</string>
+    <string name="todo">TODO</string>
+    <string name="Background">TODO</string>
+    <string name="InDeveloping">*В разработке</string>
+    <string name="Gravity">Задачи на нахождения силы тяжести(F, m, g)</string>
+    <string name="Weight">Задачи на нахождения веса(P, m, g)</string>
+    <string name="PageTitleProblemSolving">Решение задач</string>
+    <string name="Density">Задачи на нахождения плотности (p, m, V)</string>
+    <string name="ButtonMomentOfPower">Задачи на нахождения момента силы (M, F, I)</string>
+    <string name="NameOfApp">Physicals</string>
+    <string name="Weight_title">Задачи на нахождение веса</string>
+    <string name="Input_m">Масса тела(m)</string>
+    <string name="Hint_m">Введите m</string>
+    <string name="g_title">Ускорение свободного падения(g)</string>
+    <string name="g_Hint">Введите g</string>
+    <string name="Gravity_values">М/С²</string>
+    <string name="p_Hint">Введите P</string>
+    <string name="p_title">Вес(P)</string>
+    <string name="button">Button</string>
+    <string name="Find_title">Найти:</string>
+    <string name="Answer_title">Ответ:</string>
+    <string name="Answer_TextView">Здесь будет ответ</string>
+    <string name="tetxview">TetxView</string>
+    <string name="Solv">Решить</string>
+    <string name="Gravity_title">Задачи на нахождение силы тяжести</string>
+    <string name="F_title">Сила тяжести (Fтяж)</string>
+    <string name="F_Hint">Введите Fтяж</string>
+    <string name="AboutApp">О приложении</string>
+    <string name="Density_title">Задачи на нахождение плотности</string>
+    <string name="Volume_title">Объём(V)</string>
+    <string name="InputV">Введите V</string>
+    <string name="Input_Density_title">Плотность(ρ)</string>
+    <string name="InputDensity">Введите ρ</string>
+    <string name="MomentOfPowe_title">Задачи на нахождение момента силы</string>
+    <string name="string_momentofpowe_title">Задачи на нахождение момента силы</string>
+    <string name="l_title">Длина плеча(l)</string>
+    <string name="l_Hint">Введите l</string>
+    <string name="f_title">Модуль силы(F)</string>
+    <string name="MomentOrPower_title">Момент Силы(M)</string>
+    <string name="MomentOfPower_Hint">Введите M</string>
+    <string name="ValuesOfMomentOfPower">Нм</string>
+    <string name="inputF">Введите F</string>
+    <string name="Formulas_title">Формулы</string>
+    <string name="string_formulas_title">Формулы</string>
+    <string name="Pop_up_window">
+        Приложение сделал Барановский Владислав\n
+        Приложение находиться в разработке\n
+        Поэтому могут присуствовать какие-либо баги\n
+    </string>
+    <string-array name="Values_weight">
+        <item>Кг</item>
+        <item>Г</item>
+        <item>Ц</item>
+        <item>Т</item>
+    </string-array>
+    <string-array name="Values_Nuton">
+        <item>Н</item>
+        <item>кН</item>
+        <item>МН</item>
+        <item>ГН</item>
+    </string-array>
+    <string-array name="Values_Volume">
+        <item>м³</item>
+        <item>см³</item>
+        <item>Л</item>
+    </string-array>
+    <string-array name="Values_Length">
+        <item>М</item>
+        <item>СМ</item>
+    </string-array>
+    <string-array name="Values_Density">
+        <item>Кг/м³</item>
+        <item>Г/см³</item>
+    </string-array>
+    <string-array name="Values_Find_For_Weight">
+        <item>P</item>
+        <item>m</item>
+        <item>g</item>
+    </string-array>
+    <string-array name="Values_Find_For_Gravity">
+        <item>Fтяж</item>
+        <item>m</item>
+        <item>g</item>
+    </string-array>
+    <string-array name="Values_Find_For_Density">
+        <item>ρ</item>
+        <item>m</item>
+        <item>V</item>
+    </string-array>
+    <string-array name="Values_Find_For_MomentOfPower">
+        <item>M</item>
+        <item>F</item>
+        <item>l</item>
+    </string-array>
+    <string-array name="Valuses_For_Formulas">
+        <item></item>
+    </string-array>
+</resources>

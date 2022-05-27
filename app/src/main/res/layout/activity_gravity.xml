@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gravity"
+    android:background="#EFEAD8"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="304dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/Gravity_title"
+            android:textAlignment="center"
+            android:textColor="#5F7161"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="307dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/Input_m"
+            android:textAlignment="textStart"
+            android:textColor="#5F7161"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="TextContrastCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerForWeight"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#5F7161"
+            android:entries="@array/Values_weight"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/inputMf"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputMf"
+            android:layout_width="154dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Hint_m"
+            android:inputType="numberDecimal"
+            android:singleLine="false"
+            android:textColor="#5F7161"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="309dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/g_title"
+            android:textAlignment="textStart"
+            android:textColor="#5F7161"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputMf"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="78dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/Gravity_values"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/inputGF"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputGF"
+            android:layout_width="154dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/g_Hint"
+            android:inputType="numberDecimal"
+            android:singleLine="false"
+            android:textColor="#5F7161"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="307dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/F_title"
+            android:textAlignment="textStart"
+            android:textColor="#5F7161"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputGF"
+            tools:ignore="TextContrastCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerForGravity"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#5F7161"
+            android:entries="@array/Values_Nuton"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/inputFgravity"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputFgravity"
+            android:layout_width="154dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/F_Hint"
+            android:inputType="numberDecimal"
+            android:singleLine="false"
+            android:textColor="#5F7161"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="307dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/Find_title"
+            android:textAlignment="textStart"
+            android:textColor="#5F7161"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputFgravity"
+            tools:ignore="TextContrastCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerFindGravity"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#5F7161"
+            android:entries="@array/Values_Find_For_Gravity"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.231"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/solvingButtonF"
+            android:layout_width="349dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#6D8B74"
+            android:onClick="SolvePowerF"
+            android:text="@string/Solv"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerFindGravity" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="307dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/Answer_title"
+            android:textAlignment="textStart"
+            android:textColor="#5F7161"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/solvingButtonF"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/Answe"
+            android:layout_width="363dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:background="#6D8B74"
+            android:gravity="center"
+            android:text="@string/Answer_TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="125dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/tetxview"
+            android:textColor="#EFEAD8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Answe"
+            tools:ignore="TextContrastCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
