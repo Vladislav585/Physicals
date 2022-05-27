@@ -8,8 +8,8 @@
     tools:context=".Formulas">
 
     <ScrollView
-        android:layout_width="412dp"
-        android:layout_height="732dp"
+        android:layout_width="417dp"
+        android:layout_height="741dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -37,8 +37,8 @@
 
             <TextView
                 android:id="@+id/textView43"
-                android:layout_width="326dp"
-                android:layout_height="55dp"
+                android:layout_width="327dp"
+                android:layout_height="61dp"
                 android:text="@string/Formulas_p_m_g"
                 android:textAlignment="textStart"
                 android:textColor="#FFFFFF"
@@ -51,7 +51,7 @@
             <TextView
                 android:id="@+id/textView37"
                 android:layout_width="326dp"
-                android:layout_height="104dp"
+                android:layout_height="139dp"
                 android:layout_marginTop="4dp"
                 android:text="@string/s_t_v_pos"
                 android:textAlignment="textStart"
@@ -66,7 +66,7 @@
             <TextView
                 android:id="@+id/textView41"
                 android:layout_width="325dp"
-                android:layout_height="59dp"
+                android:layout_height="64dp"
                 android:text="@string/m_g_p_pos"
                 android:textAlignment="textStart"
                 android:textColor="#FFFFFF"

@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Physicals/app/src/main/res/drawable/IconApp_background.xml" value="0.35260416666666666" />
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/activity_density.xml" value="0.33" />
-        <entry key="..\:/Android/Physicals/app/src/main/res/layout/activity_formulas.xml" value="0.5" />
+        <entry key="..\:/Android/Physicals/app/src/main/res/layout/activity_formulas.xml" value="0.33" />
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/activity_gravity.xml" value="0.33" />
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/activity_main.xml" value="0.33645833333333336" />
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/activity_moment_of_power.xml" value="0.33" />
@@ -14,6 +15,8 @@
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/listview_group.xml" value="0.33645833333333336" />
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/listview_groupview_child.xml" value="0.33645833333333336" />
         <entry key="..\:/Android/Physicals/app/src/main/res/layout/mystyle.xml" value="0.33645833333333336" />
+        <entry key="..\:/Android/Physicals/app/src/main/res/mipmap-anydpi-v26/IconApp.xml" value="0.35260416666666666" />
+        <entry key="..\:/Android/Physicals/app/src/main/res/mipmap-anydpi-v26/IconApp_round.xml" value="0.19895833333333332" />
         <entry key="..\:/Android/Physicals2/app/src/main/res/layout/activity_main.xml" value="0.33645833333333336" />
         <entry key="..\:/Android/Physicals2/app/src/main/res/layout/activity_task_list.xml" value="0.33645833333333336" />
         <entry key="..\:/Android/SDK/platforms/android-32/data/res/layout/simple_expandable_list_item_1.xml" value="0.1828125" />
