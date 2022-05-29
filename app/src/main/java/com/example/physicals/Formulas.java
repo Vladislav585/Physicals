@@ -16,7 +16,7 @@ public class Formulas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_formulas);
+        setContentView(R.layout.activity_formula);
         Objects.requireNonNull(getSupportActionBar()).hide();
     }
 }

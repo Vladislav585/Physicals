@@ -51,16 +51,64 @@
         Приложение находиться в разработке\n
         Поэтому могут присуствовать какие-либо баги\n
     </string>
-    <string name="v_s_t_title">V = S / t</string>
-    <string name="s_t_v_pos">S — путь тела,\n
-        t — время, за которое этот путь пройден,\n
+    <string name="v_s_t_title">V = S / t (Скорость)</string>
+    <string name="s_t_v_pos">S — путь тела, \n
+        t — время, за которое этот путь пройден, \n
         V - скорость, с которой пройден этот путь</string>
     <string name="s_t_v_Ci">СИ: S = км, t = ч, V = км/ч</string>
     <string name="Formulas_s_t_v">Также можно найти: S = V × t, t = S / V</string>
-    <string name="p_mg_title">P = mg</string>
+    <string name="p_mg_title">P = m × g (Вес)</string>
     <string name="m_g_p_pos">m — масса тела, g — ускорение свободного падения, P - вес тела</string>
     <string name="p_m_g_Ci">СИ: P = Н, m = кг, g = 9,8 м/с²</string>
     <string name="Formulas_p_m_g">Также можно найти: m = P / g, g = P / m</string>
+    <string name="m_v_title">ρ = m / V (плотность)</string>
+    <string name="p_m_CI">СИ: ρ = кг/м³, m = кг, V = м³</string>
+    <string name="m_v_зщы">m — масса тела или вещества, V — занимаемый объем, ρ - плотность тела</string>
+    <string name="m_v_v_m_Formula">Также можно найти: m = ρ * V, V = m / ρ</string>
+    <string name="m_f_l_title">M = F × l (Момент силы)</string>
+    <string name="f_l_m_pos">F — модуль силы, l — длина плеча, M - момент силы</string>
+    <string name="m_hm_f_h_i_pos">СИ: M = Hm, F = H. I = м</string>
+    <string name="f_m_l_l_m_f_formula">Также можно найти: F = M / l, l = M / F</string>
+    <string name="p_f_s_title">p = F / S (давление)</string>
+    <string name="f_s_p_pos">F — модуль силы, S — площадь поверхности, p - плотность тела</string>
+    <string name="p_f_h_s_CI">СИ: p = Па, F = H, S = м²</string>
+    <string name="f_p_s_s_f_p_formulas">Также можно найти: F = p × S, S = F / p</string>
+    <string name="g_h_title">р = ρ × g × h (гидростатическое давление)</string>
+    <string name="g_h_pos">ρ — плотность вещества, g — ускорение свободного падения, h — высота столба, р - гидростатическое давление</string>
+    <string name="fa_g_v_title">Fa = ρ × g × V (архимедова сила)</string>
+    <string name="v_g_9_8_2_fa_pos">ρ — плотность жидкости, V — объем погруженной части тела, g — ускорение 9,8 м/с2, Fa = архимедова сила</string>
+    <string name="g_9_8_CI">СИ: g = 9,8 м/с², р = Па, ρ = кг/м³</string>
+    <string name="g_9_CI">СИ: g = 9,8 м/с², V = м³, ρ = кг/м³, Fa = Н</string>
+    <string name="g_h_g_h_h_g_formula">Также можно найти: ρ = р / g × h, g = р / ρ × h, h = р / g × ρ</string>
+    <string name="fa_g_v_g_fa_v_v_fa_g_formula">Также можно найти: ρ = Fa / g × V, g = Fa / ρ × V, V = Fa / ρ × g</string>
+    <string name="a_f_s_title">A = F × S (Работа)</string>
+    <string name="f_s_a_pos">F — действующая сила, S — пройденный телом путь, A - работа</string>
+    <string name="a_f_h_s">СИ: A - Дж, F - H, S - м</string>
+    <string name="f_a_s_s_a_f_formula">Также можно найти: F = A / S, S = A / F</string>
+    <string name="n_a_t_title">N = A / t (Мощность)</string>
+    <string name="a_t_n_pos">A — работа, t — время ее совершения, N - мощность</string>
+    <string name="n_a_t_Ci">СИ: N = Вт, A = Дж, t = ч</string>
+    <string name="a_n_t_t_a_n_formula">Также можно найти: A = N × t, t = A / N</string>
+    <string name="ek_mv_2_title">Ek = m × v²/2 (Кинетическая энергия)</string>
+    <string name="e_m_v_CI">СИ: Eк = Дж, m = кг, V = км/ч</string>
+    <string name="e_m_v_pos">Eк - кинетическая энергия, m - масса, v - скорость</string>
+    <string name="m_2_e_v_v_2_e_m_formula">Также можно найти: m = 2 * Eк / v², v = √ 2 * Eк / m</string>
+    <string name="e_mgh_title">Eп = m × g × h (Потенциальная энергия)</string>
+    <string name="e_m_g_9_8_h_Ci">СИ: Eп = Дж, m = кг, g = 9,8 м/с², h = м</string>
+    <string name="e_m_g_h_pos">Eп - потенциальная энергия, m - масса тела, g - ускорение свободного падения, h - высота</string>
+    <string name="m_e_g_h_g_e_m_h_h_e_g_m_formula">Также можно найти: m = Eп / g * h, g = Eп / m * h, h = Eп / g * m</string>
+    <string name="e_e_e_title">E = Eк+Eп (Полная механическая энергия)</string>
+    <string name="e_e_e_pos">E - полная механическая энергия, Eк - кинетическая энергия, Eп - потенциальная энергия.</string>
+    <string name="e_e_e_Ci">СИ: E = Дж, Eк = Дж, Eп = Дж</string>
+    <string name="e_e_e_e_e_e_formulas">Также можно найти: Eк = E - Eп, Eп = E - Eк</string>
+    <string name="kpd_title">η = Ап / Аз (КПД)</string>
+    <string name="a_a_pos">η — коэффициент полезного действия, Aп — полезная работа, Aз — затраченная работа</string>
+    <string name="a_a_Ci">СИ: η - %, Aп - Дж, Aз - Дж</string>
+    <string name="_100_100_formulas">Также можно найти: Аз = Ап * 100% / η, Ап = Аз * η / 100%</string>
+    <string name="AboutAp">О приложении</string>
+    <string name="AboutMe">Приложение сделал Барановский Владислав.</string>
+    <string name="Bago">Возможны какие-либо баги</string>
+    <string name="physicalsmailsup_gmail_com">Можете присылать на почту баги или свои идеи: physicalsmailsup@gmail.com</string>
     <string-array name="Values_weight">
         <item>Кг</item>
         <item>Г</item>
