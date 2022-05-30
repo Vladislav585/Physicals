@@ -23,15 +23,15 @@ public class ConvertMassa extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).hide();
     }
     public String Find(){
-        Spinner sp = findViewById(R.id.spinnerConverterAnswerMassa);
+        Spinner sp = findViewById(R.id.spinnerConverterAnswerS);
         return sp.getSelectedItem().toString();
     }
     public String SpinnerWeight(){
-        Spinner Spinner = findViewById(R.id.SpinnerConverterMassa);
+        Spinner Spinner = findViewById(R.id.SpinnerConverterS);
         return Spinner.getSelectedItem().toString();
     }
     public float GetMassa(){
-        EditText mas = this.findViewById(R.id.InputConverterMassa);
+        EditText mas = this.findViewById(R.id.InputConverterS);
         String mass = mas.getText().toString();
         return (float) Double.parseDouble(mass);
     }
@@ -141,7 +141,7 @@ public class ConvertMassa extends AppCompatActivity {
     }
     @SuppressLint("DefaultLocale")
     public void Conver(View v){
-        Button btn = findViewById(R.id.ConverterButtonMassa);
+        Button btn = findViewById(R.id.ConverterButtonS);
         btn.setOnClickListener(v1 -> {
             try {
                 String find = Find();
@@ -152,7 +152,7 @@ public class ConvertMassa extends AppCompatActivity {
                 m = (float) Double.parseDouble(Ansmas);
                 mas = BigDecimal.valueOf(Double.parseDouble(String.valueOf(m))).toPlainString();
                 String Answer = ("m = " + mas + " " + find);
-                final TextView ans = findViewById(R.id.ConverterMassaAnswer);
+                final TextView ans = findViewById(R.id.ConverterSAnswer);
                 ans.setText(Answer);
             }catch(Exception e){
                 Toast.makeText(getApplicationContext(), "Введите правильно данные и уберите лишние данные", Toast.LENGTH_LONG).show();

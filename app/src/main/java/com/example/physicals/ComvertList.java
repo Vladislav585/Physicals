@@ -27,6 +27,14 @@ public class ComvertList extends AppCompatActivity {
                 Intent intent = new Intent(ComvertList.this, ConvertMassa.class);
                 startActivity(intent);
             });
+            btn_Nuton.setOnClickListener(v -> {
+               Intent intent = new Intent(ComvertList.this, ConvertNuton.class);
+               startActivity(intent);
+            });
+            btn_S.setOnClickListener(v ->{
+               Intent intent = new Intent(ComvertList.this, ConvertS.class);
+               startActivity(intent);
+            });
         }catch(Exception e){
             Toast.makeText(this,"Произошла непредвиденная ситуция", Toast.LENGTH_LONG).show();
         }

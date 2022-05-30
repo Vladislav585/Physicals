@@ -188,11 +188,29 @@
     <string name="AnswerConverterMassa_title">Ответ:</string>
     <string name="Answer_in">Ответ в</string>
     <string name="Con">Конвертировать</string>
+    <string name="Nuton_hint">Введите значение</string>
+    <string name="Nuton_title">Конвертер Ньютонов</string>
+    <string name="S_title">Конвертер площади</string>
+    <string name="s_hint">Введите S</string>
     <string-array name="Values_For_Converter_Masssa">
         <item>Кг</item>
         <item>Г</item>
         <item>Мг</item>
         <item>Ц</item>
         <item>Т</item>
+    </string-array>
+    <string-array name="Values_For_Converter_Nuton">
+        <item>Н</item>
+        <item>гН</item>
+        <item>кН</item>
+        <item>МН</item>
+        <item>ГН</item>
+    </string-array>
+    <string-array name="Values_For_Converter_S">
+        <item>м²</item>
+        <item>см²</item>
+        <item>км²</item>
+        <item>Га</item>
+        <item>Ар</item>
     </string-array>
 </resources>

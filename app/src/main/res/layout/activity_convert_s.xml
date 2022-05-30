@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConvertMassa"
+    tools:context=".ConvertS"
     android:background="#EFEAD8"
     tools:ignore="SpeakableTextPresentCheck">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#5F7161">
-
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/ConverterSAnswer"
@@ -35,7 +33,7 @@
             android:layout_height="59dp"
             android:layout_marginTop="36dp"
             android:backgroundTint="#6D8B74"
-            android:onClick="Conver"
+            android:onClick="ConverNuton"
             android:text="@string/Con"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
@@ -94,7 +92,7 @@
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="#5F7161"
-            android:entries="@array/Values_For_Converter_Masssa"
+            android:entries="@array/Values_For_Converter_S"
             android:spinnerMode="dropdown"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -108,7 +106,7 @@
             android:layout_height="55dp"
             android:layout_marginTop="17dp"
             android:backgroundTint="#5F7161"
-            android:entries="@array/Values_For_Converter_Masssa"
+            android:entries="@array/Values_For_Converter_S"
             android:spinnerMode="dropdown"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -118,15 +116,15 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/InputConverterS"
-            android:layout_width="154dp"
+            android:layout_width="wrap_content"
             android:layout_height="54dp"
             android:layout_marginTop="20dp"
-            android:hint="@string/Hint_m"
+            android:hint="@string/s_hint"
             android:inputType="numberDecimal"
             android:singleLine="false"
             android:textColor="#5F7161"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintHorizontal_bias="0.176"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView101"
             tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
@@ -136,7 +134,7 @@
             android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
-            android:text="@string/Convert_massa_title"
+            android:text="@string/S_title"
             android:textAlignment="center"
             android:textColor="#5F7161"
             android:textSize="24sp"
@@ -144,5 +142,6 @@
             app:layout_constraintHorizontal_bias="0.523"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

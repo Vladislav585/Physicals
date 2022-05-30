@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Physicals">
         <activity
+            android:name=".ConvertS"
+            android:exported="false" />
+        <activity
+            android:name=".ConvertNuton"
+            android:exported="false" />
+        <activity
             android:name=".ConvertMassa"
             android:exported="false" />
         <activity
