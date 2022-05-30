@@ -109,6 +109,11 @@
     <string name="AboutMe">Приложение сделал Барановский Владислав.</string>
     <string name="Bago">Возможны какие-либо баги</string>
     <string name="physicalsmailsup_gmail_com">Можете присылать на почту баги или свои идеи: physicalsmailsup@gmail.com</string>
+    <string name="Davlenie">Задачи на нахождение давления (p, F, S)</string>
+    <string name="pressure_title">Задачи на нахождение давления</string>
+    <string name="Pressure_title">Давление (p)</string>
+    <string name="p_input">Введите p</string>
+    <string name="s">Площадь поверхности (S)</string>
     <string-array name="Values_weight">
         <item>Кг</item>
         <item>Г</item>
@@ -154,7 +159,40 @@
         <item>F</item>
         <item>l</item>
     </string-array>
-    <string-array name="Valuses_For_Formulas">
-        <item></item>
+    <string-array name="Values_Paskal">
+        <item>Па</item>
+        <item>гПа</item>
+        <item>кПа</item>
+        <item>МПа</item>
+    </string-array>
+    <string-array name="Values_S">
+        <item>М²</item>
+        <item>СМ²</item>
+        <item>КМ²</item>
+    </string-array>
+    <string-array name="Values_Find_For_Pressure">
+        <item>p</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string name="title_activity_convert_list">ConvertList</string>
+    <string name="large_text">
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="Massabutton">Масса (кг)</string>
+    <string name="NutonButton">Ньютоны (Н)</string>
+    <string name="buttonS">Площадь (м²)</string>
+    <string name="Converter_title">Конвертер величин</string>
+    <string name="Convert_massa_title">Конвертер массы</string>
+    <string name="Input_info">Входные данные</string>
+    <string name="AnswerConverterMassa_title">Ответ:</string>
+    <string name="Answer_in">Ответ в</string>
+    <string name="Con">Конвертировать</string>
+    <string-array name="Values_For_Converter_Masssa">
+        <item>Кг</item>
+        <item>Г</item>
+        <item>Мг</item>
+        <item>Ц</item>
+        <item>Т</item>
     </string-array>
 </resources>

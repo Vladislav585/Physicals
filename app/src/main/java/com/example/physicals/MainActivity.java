@@ -12,7 +12,7 @@ import android.widget.Toast;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn_SolvingProblem, btn_Formulas, btn_AvoutApp;
+    private Button btn_SolvingProblem, btn_Formulas, btn_AvoutApp, btn_Converter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
             btn_SolvingProblem = findViewById(R.id.ButtonSolvingProblem);
             btn_Formulas = findViewById(R.id.ButtonFormulas);
             btn_AvoutApp = findViewById(R.id.buttonAboutApp);
+            btn_Converter = findViewById(R.id.ButtonConverter);
             Dialog dialog = new Dialog(MainActivity.this);
             dialog.setContentView(R.layout.mystyle);
-            dialog.setTitle("Заголовок диалога");
             btn_SolvingProblem.setOnClickListener(v -> {
                 Intent intent = new Intent(MainActivity.this, TaskList.class);
                 startActivity(intent);
@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
             });
             btn_AvoutApp.setOnClickListener(v -> {
                 dialog.show();
+            });
+            btn_Converter.setOnClickListener(v -> {
+               Intent intent = new Intent(MainActivity.this, ComvertList.class);
+               startActivity(intent);
             });
         }catch(Exception e){
             Toast.makeText(this,"Произошла непредвиденная ситуция", Toast.LENGTH_LONG).show();

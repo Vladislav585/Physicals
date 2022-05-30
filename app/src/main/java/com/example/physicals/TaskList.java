@@ -9,7 +9,7 @@ import android.widget.Button;
 import java.util.Objects;
 
 public class TaskList extends AppCompatActivity {
-    private Button btn_Weight, btn_Gravity, btn_Density, btn_MomentOfPower;
+    private Button btn_Weight, btn_Gravity, btn_Density, btn_MomentOfPower, btn_Pressure;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,7 @@ public class TaskList extends AppCompatActivity {
         btn_Weight = findViewById(R.id.buttonWeight);
         btn_Gravity = findViewById(R.id.buttonGravity);
         btn_Density = findViewById(R.id.buttonDensity);
+        btn_Pressure = findViewById(R.id.buttonPressure);
         btn_MomentOfPower = findViewById(R.id.buttonMomentOfPower);
         btn_Weight.setOnClickListener(v -> {
             Intent intent = new Intent(TaskList.this, Weight.class);
@@ -37,6 +38,10 @@ public class TaskList extends AppCompatActivity {
         btn_MomentOfPower.setOnClickListener(v ->{
             Intent intent = new Intent(TaskList.this, MomentOfPower.class);
             startActivity(intent);
+        });
+        btn_Pressure.setOnClickListener(v -> {
+           Intent intent = new Intent(TaskList.this, Pressure.class);
+           startActivity(intent);
         });
     }
 }

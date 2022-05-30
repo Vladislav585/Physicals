@@ -11,6 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Physicals">
         <activity
+            android:name=".ConvertMassa"
+            android:exported="false" />
+        <activity
+            android:name=".ComvertList"
+            android:exported="false" />
+        <activity
+            android:name=".Pressure"
+            android:exported="false" />
+        <activity
             android:name=".Formulas"
             android:exported="true" />
         <activity
@@ -33,6 +42,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
