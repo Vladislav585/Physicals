@@ -1,4 +1,4 @@
-# Physicals (2022)
+# Physicals (2021)
 
 ### 🎓 О проекте
 Мой первый проект в области разработки ПО, созданный в 2022 году. Это мобильное приложение на Android, которое помогало мне и моим одноклассникам автоматизировать рутинные расчеты по физике за 7 класс.
@@ -19,7 +19,7 @@
 ---
 *Статус: Проект заархивирован (школьный период).*
 
-# Physicals (2022)
+# Physicals (2021)
 
 ### 🎓 About the Project
 This is my first software development project, created in 2022 during high school. It is an Android mobile application designed to help my classmates and me automate routine physics calculations for the 7th-grade curriculum.
