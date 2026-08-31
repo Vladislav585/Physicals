@@ -1,5 +1,7 @@
 # Physicals (2021)
 
+> **Languages:** [🇷🇺 Русский](#russian-version) | [🇺🇸 English](#english-version)
+
 ### 🎓 О проекте
 Мой первый проект в области разработки ПО, созданный в 2022 году. Это мобильное приложение на Android, которое помогало мне и моим одноклассникам автоматизировать рутинные расчеты по физике за 7 класс.
 
@@ -18,6 +20,14 @@
 
 ---
 *Статус: Проект заархивирован (школьный период).*
+
+<br/><br/>
+<div align="center">
+  <hr size="3" width="100%" color="gray">
+  <h2 id="english-version">🇺🇸 English Version</h2>
+  <hr size="3" width="100%" color="gray">
+</div>
+<br/>
 
 # Physicals (2021)
 
